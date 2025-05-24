@@ -3,7 +3,6 @@ import { sidebarLinks } from '@/constants'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import React from 'react'
-import { link } from 'fs'
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
 

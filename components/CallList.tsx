@@ -1,4 +1,4 @@
-//@ts-nocheck
+//@typescript-eslint/ban-ts-comment
 'use client';
 
 import { Call, CallRecording } from '@stream-io/video-react-sdk';
