@@ -40,7 +40,7 @@ const PersonalRoom = () => {
          }
        })
     }
-    router.push(`/meeting/${meetingId!}?personal=true`)
+    router.push(`/meeting/${meetingId!}/personal=true`)
   }
   return (
     <section className='flex flex-col size-full gap-10 text-white'>
