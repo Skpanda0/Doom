@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Doom 🕹️💬
 
-## Getting Started
+**Live Site**: [doom-ashy-nu.vercel.app](https://doom-ashy-nu.vercel.app/)  
+**Repo**: [github.com/Skpanda0/Doom](https://github.com/Skpanda0/Doom)
 
-First, run the development server:
+Doom is a minimal and modern video conferencing web app, inspired by platforms like Zoom and Google Meet. With one-click room creation and real-time video/audio calling, it's designed for simplicity, speed, and reliability.Using stream for End-to-end encryption video audio call and prebulit component and styling. 
+
+## ✨ Features
+
+- ✅ Create or join a meeting instantly via a unique URL
+- 🎥 Real-time video and audio communication
+- 🚪 Secure, peer-to-peer connections (via [Stream](https://getstream.io/))
+- ⚡ Fast, serverless deployment (via Vercel)
+- 🧼 Clean, responsive UI for desktop and mobile
+
+## 🧱 Tech Stack
+
+- **Next.js** – App framework (App Router)
+- **React** – UI library
+- **Clerk** – Authentication
+- **Stream** – Peer-to-peer video/audio
+- **Tailwind CSS** – Styling
+- **Vercel** – Deployment
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 18
+- Clerk API keys
+- Stream API keys
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Skpanda0/Doom.git
+cd Doom
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Set environment variables
+
+- Create a .env.local file in the root:
+
+```bash
+- NEXT_PUBLIC_BASE_URL=Your app URL
+
+- NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=Your clerk public key
+
+- CLERK_SECRET_KEY=your clerk secret key
+
+- NEXT_PUBLIC_CLERK_SIGN_IN_URL=Your clerk signIn URL
+
+- NEXT_PUBLIC_CLERK_SIGN_UP_URL=Your clerk signUp URL
+
+- NEXT_PUBLIC_STREAM_API_KEY=Your Stream API key
+
+- STREAM_SECRET_KEY=Your stream secret key
+```
+
+### 4. Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This app is optimized for deployment on [Vercel](https://vercel.com/home):
 
-## Learn More
+1.  Push the repo to GitHub
 
-To learn more about Next.js, take a look at the following resources:
+2.  Import into Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3.  Add environment variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4.  Deploy 🚀
 
-## Deploy on Vercel
+## 💡 Future Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 💬 In-call chat & screen sharing (For mobile)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 📝 Meeting notes or transcripts
+
+- 📱 Enhanced mobile experience
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
