@@ -25,6 +25,9 @@ const Navbar = () => {
         </p>
       </Link>
       <div className='flex-between gap-5'>
+        <Link href="https://github.com/Skpanda0/Doom" target='_blank' className='text-zinc-300 hover:text-zinc-500'>
+          <LucideGithub className='h-fit w-fit'/>
+        </Link>
         <SignedIn>
           <UserButton />
         </SignedIn>
